@@ -1,0 +1,134 @@
+body {
+  background-image: url("moon.jpg");
+  background-position: 100% 90%;
+  background-repeat: repeat;
+
+}
+
+#Jokebox {
+  margin-top: 300px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 260px;
+  padding: 0px;
+}
+
+#yorn{
+	height:30px;
+}
+#setup {
+  color: black;
+  font-size: 40px;
+  font-family: KaiTi;
+}
+
+#punchline {
+  color: white;
+  font-size: 25px;
+  font-family: KaiTi;
+}
+
+#nope {
+  color: white;
+  font-size: 25px;
+  font-family: KaiTi;
+}
+
+.choices{
+	background-color: yellow;
+}
+.spanSub {
+  font-family: KaiTi;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.skeleton {
+  margin: inherit;
+  width:inherit;
+  overflow:hidden;
+  height: 0px;
+  transition: 0.5s;
+}
+
+.off {
+  height: 0px;
+  overflow: hidden;
+}
+
+.on {
+  height: 30px;
+}
+
+.Btn {
+  padding-top: 5px;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 22px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.Btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:active {
+  box-shadow: 0px 1px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+  background-color: #6FC6FF;
+}
+
+.red {
+  background-color: #F44336;
+  box-shadow: 0px 5px 0px 0px #C62828;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.red:active {
+  box-shadow: 0px 1px 0px 0px #C62828;
+}
+
+.red:hover {
+  background-color: #EF5350;
+}
+
+.green {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.green:active {
+  box-shadow: 0px 1px 0px 0px #15B358;
+}
+
+.green:hover {
+  background-color: #48E68B;
+}
+
+table tr:last-child td{
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

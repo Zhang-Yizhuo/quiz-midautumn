@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+<title>Mid-Autumn Quiz</title>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script src="./index.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<div id="Jokebox">
+  <div class="box">
+    <div id="setup"><strong>问题</strong></div> <div id="yorn"></div>
+    <div id="punchline">答案1在此！</div><button class="choices" id="ansy">Choose This</button>
+	<div id="nope">答案2在此！</div><button class="choices" id="ansn">Choose This</button>
+    <table>
+      <tr>
+        <td>
+          <a href="#"><div class="spanSub green Btn" >顶</div></a><a href="#"><div class="spanSub red Btn">踩</div></a>
+        </td>
+        <td>
+          <div><a href="#" class="spanSub blue Btn">再来一个？</a></div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="spanSub">
+            <span id="Votes"></span> 人赞了这条谜语。
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+
+
+</div>
+</body>
+
+</html>
