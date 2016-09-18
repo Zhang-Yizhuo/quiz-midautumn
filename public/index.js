@@ -16,7 +16,6 @@ $( document ).ready(function() {
           // TODO: change HTML instead of alert
           $("#setup").html(data.setup);
           $("#punchline").html(data.punchline);
-		  $("#nope").html(data.nope);
           index = data.id;
 
           if (data.votes === undefined) {
@@ -39,7 +38,6 @@ $(function() {
                 // TODO: change HTML instead of alert
                 $("#setup").html(data.setup);
                 $("#punchline").html(data.punchline);
-				$("#nope").html(data.nope);
 
                 index = data.id;
 
